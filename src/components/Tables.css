@@ -1,0 +1,112 @@
+.tables-container {
+  padding: 20px;
+}
+
+.tables-layout {
+  display: flex;
+}
+
+.tables-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 70%; /* 70% for the table grid */
+}
+
+.table-details-container {
+  width: 30%; /* 30% for the details section */
+  padding: 20px;
+  border-left: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.table-box {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.vacant {
+  background-color: #4caf50; /* Green for vacant */
+}
+
+.occupied {
+  background-color: #2196f3; /* Blue for occupied */
+}
+
+.table-box:hover {
+  filter: brightness(90%);
+}
+
+.table-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.dine-options {
+  margin-bottom: 20px;
+}
+
+.dine-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dine-button:hover {
+  background-color: #8a2be2;
+}
+
+.order-buttons {
+  margin-top: 20px;
+}
+
+.order-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-button:hover {
+  background-color: #1e88e5;
+}
+
+.no-table-selected {
+  text-align: center;
+  font-style: italic;
+  color: #aaa;
+}
+
+.add-table-form {
+  margin-top: 20px;
+}
+
+.add-table-form input {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-table-form button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #6a0dad;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-table-form button:hover {
+  background-color: #8a2be2;
+}

@@ -1,0 +1,15 @@
+/* Menu.css */
+.menu ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(68, 68, 68);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.menu ul li a.active {
+  background-color: #6a0dad;
+  box-shadow: 0 0 15px 5px rgba(106, 13, 173, 0.6);
+  color: #fff;
+}

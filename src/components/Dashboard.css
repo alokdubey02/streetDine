@@ -1,0 +1,111 @@
+/* Dashboard.css */
+.dashboard-container {
+  display: flex;
+  padding: 20px;
+}
+
+.order-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex: 1;
+}
+
+.order-card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 250px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.order-card:hover {
+  transform: scale(1.05);
+}
+
+.order-card h3 {
+  margin-top: 0;
+  color: #6005a1;
+  background-color: rgb(255, 143, 15);
+  margin-right: 50%;
+  border-radius: 9px;
+}
+
+.order-card p {
+  margin: 5px 0;
+}
+
+.order-details-container {
+  flex-basis: 300px;
+  padding-left: 20px;
+  border-left: 2px solid #e0e0e0;
+}
+
+.order-details {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.order-details h3 {
+  margin-top: 0;
+  color: #000000;
+}
+
+.dine-options {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.dine-button {
+  padding: 8px 12px;
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-item input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-item button {
+  padding: 8px 12px;
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accept-cash {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accept-cash:hover {
+  background-color: #218838;
+}
+
+.no-order-selected {
+  color: #888;
+  font-style: italic;
+}

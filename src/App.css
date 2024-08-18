@@ -1,4 +1,54 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+.menu-bar {
+  width: 15%;
+  background-color: white;
+  color: rgb(70, 70, 70);
+  padding: 20px;
+  /* height: 100%; */
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin: 10px 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 15px;
+  border-radius: 10px; /* Curved border */
+  background-color: rgb(239, 239, 239); /*Purple background*/
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #9821ed;
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+.dashboard {
+  width: 80%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  /* height: 100%; */
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +85,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
